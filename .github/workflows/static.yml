@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ 表白页面 ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 50px;
+            margin: 0;
+        }
+        h1 {
+            color: #ff6b6b;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5rem;
+            color: #333;
+            line-height: 1.6;
+        }
+        .heart {
+            color: #ff6b6b;
+            font-size: 2rem;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>❤️ 我喜欢你！ ❤️</h1>
+    <p>你是我的偏爱，也是我的唯一。</p>
+    <p>你的笑容像阳光一样温暖，你的声音像音乐一样动听。</p>
+    <p>我想和你一起走过每一个春夏秋冬。</p>
+    <p>你愿意和我一起走下去吗？</p>
+    <p>—— <strong>[妮妮]</strong></p>
+    <div class="heart">❤️</div>
+</body>
+</html>
